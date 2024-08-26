@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pirata+One&display=swap" rel="stylesheet">
+    <title>Pérola Negra</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0.jpg" alt="início da aventura">
+            <p>O tesouro do navio pirata Pérola Negra pode ser encontrado. Foram divulgadas algumas pistas do seu paradeiro. Siga um dos locais para iniciar sua busca!</p>
+            <button class="btn-proximo" data-proximo="1">Madagascar</button>
+            <button class="btn-proximo" data-proximo="2">República Dominicana</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Você pode entrar na mata e encontrar a cachoeira com uma pedra em formato de lagarto ou tentar achar alguma pista na praia</p>
+            <button class="btn-proximo" data-proximo="3">Cachoeira</button>
+            <button class="btn-proximo" data-proximo="4">Praia</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Decido procurar algumas pistas pela cidade</p>
+            <button class="btn-proximo" data-proximo="5">Investigar a antiga casa dos piratas</button>
+            <button class="btn-proximo" data-proximo="6">Perguntar sobre as pistas aos moradores</button> 
+        </div>
+        <div class="passo" id="passo-3">
+            <p>Me deparo com uma entrada na cachoeira</p>
+            <button class="btn-proximo" data-proximo="7">Entrar na cachoeira</button>
+        </div>
+        <div class="passo" id="passo-4">
+            <img src="img/cenario-passo4.jpg" alt="voltando para casa">
+            <p>Passando em águas rasas fui atingido por águas vivas e decido voltar para casa</p>
+        </div>
+        <div class="passo" id="passo-5">
+            <p>Encontro um mapa antigo indicando uma cachoeria em Madagascar. Viajo até lá e encontro a cachoeira que possui uma entrada!</p>
+            <button class="btn-proximo" data-proximo="7">Entrar na cachoeira</button>
+        </div>
+        <div class="passo" id="passo-6">
+            <p>Pergunto aos moradores locais sobre o navio pirata perdido e eles indicam procurar na antiga casa dos piratas.</p>
+            <button class="btn-proximo" data-proximo="8">Ir para a antiga casa dos piratas</button>
+        </div>
+        <div class="passo" id="passo-8">
+            <p>Encontro um mapa antigo indicando uma cachoeria em Madagascar. Viajo até lá e encontro a cachoeira que possui uma entrada!</p>
+            <button class="btn-proximo" data-proximo="7">Decido entrar na cachoeira</button>
+        </div>
+        <div class="passo" id="passo-7">
+            <img src="img/cenario-passo7.jpg" alt="final da aventura">
+            <p>Encontro um lugar imenso com o navio Pérola Negra e seus tesouros!</p>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
